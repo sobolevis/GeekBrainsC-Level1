@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
 namespace CSharpLevel1
 {
     class Program
@@ -15,11 +14,10 @@ namespace CSharpLevel1
             //Task01();
             //Task02();
             //Task03();
-            Task04();
+            //Task04();
             //Task05();
 
-            Console.WriteLine("Нажмите любую клавишу...");
-            Console.ReadKey();
+            Support.Pause();
         }
 
         private static void Task01()
@@ -83,8 +81,6 @@ namespace CSharpLevel1
             double one;
             double two;
 
-            // Не работает для строковых переменных, при больших значениях может выйти за пределы допустимых
-
             Console.WriteLine("Введите первое число: ");
             one = double.Parse(Console.ReadLine());
 
@@ -105,21 +101,17 @@ namespace CSharpLevel1
             string name = "Иван";
             string surname = "Соболев";
             string city = "Новосибирск";
+            string sum = name + " " + surname + " " + city;
 
-            Console.WriteLine($"Имя: {name}\nФамилия: {surname}\nГород: {city}");
-
-            // Вывод в центре экрана, задание 6
+            Console.SetCursorPosition((Console.WindowWidth - sum.Length) / 2, Console.WindowHeight / 2);
+            Support.Print(name, surname, city);
         }
-
 
     }
 
-
 }
 
-
-/*
- * 
+/* 
  * 1. Написать программу «Анкета». Последовательно задаются вопросы (имя, фамилия, возраст, рост, вес). 
  * В результате вся информация выводится в одну строчку.
 а) используя склеивание;
