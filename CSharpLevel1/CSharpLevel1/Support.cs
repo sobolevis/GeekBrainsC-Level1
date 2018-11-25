@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpLevel1
+namespace Lesson1
 {
     public static class Support
     {
         public static void Pause()
         {
-            Console.SetCursorPosition(0, Console.WindowHeight - 1);
             Console.Write("Нажмите любую клавишу...");
             Console.ReadKey();
         }
