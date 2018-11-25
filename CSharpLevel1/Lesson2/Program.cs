@@ -17,7 +17,7 @@ namespace Lesson2
             //Task04();
             //Task05();
             //Task06();
-            Task07();
+            //Task07();
 
             Support.Pause();
         }
