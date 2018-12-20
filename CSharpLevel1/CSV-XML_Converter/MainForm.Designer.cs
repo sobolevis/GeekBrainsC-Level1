@@ -226,7 +226,7 @@
             this.AboutToolStripMenuItem.Text = "О программе";
             this.AboutToolStripMenuItem.Click += new System.EventHandler(this.AboutToolStripMenuItem_Click);
             // 
-            // Form1
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -238,7 +238,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.MaximumSize = new System.Drawing.Size(500, 350);
             this.MinimumSize = new System.Drawing.Size(340, 300);
-            this.Name = "Form1";
+            this.Name = "MainForm";
             this.Text = "Converter";
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();

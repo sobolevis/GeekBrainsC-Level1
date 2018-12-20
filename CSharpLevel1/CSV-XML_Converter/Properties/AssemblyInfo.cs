@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
-[assembly: AssemblyTitle("CSV-XML_Converter")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Converter")]
+[assembly: AssemblyDescription("Конвертер CSV-XML файлов")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CSV-XML_Converter")]
-[assembly: AssemblyCopyright("Copyright ©  2018")]
+[assembly: AssemblyCompany("Home Project")]
+[assembly: AssemblyProduct("Converter")]
+[assembly: AssemblyCopyright("Copyright © Иван Соболев 2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
